@@ -38,7 +38,7 @@ optimizer = LOMOBaseLite(
 ```python
 class MyFunctor(Functor):
     def forward(self, loss_fn, model, batch, train_config):
-        loss = loss_fn(llm, batch, train_config)
+        loss = loss_fn(model, batch, train_config)
         return loss
 ```
 

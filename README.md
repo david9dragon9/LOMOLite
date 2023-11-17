@@ -1,5 +1,9 @@
 # 💡 LOMOLite: A Lightweight Adapter For Low-Memory Optimization
 
+Train full-parameter 7B language models with only 22 GB of GPU RAM!
+
+LOMO and AdaLOMO are low-memory optimization methods that use in-place gradient updates to significantly decrease the amount of GPU memory necessary.
+
 This repository, based off of the LOMO and collie repositories from OpenLMLab, allows for easy use of the LOMO and AdaLOMO optimizers. 
 
 While the LOMO and collie repositories are bulky and hard to use (you have to integrate your code into their code), this repository allows you to simply take the LOMO and AdaLOMO optimizers and use them with few modifications.
